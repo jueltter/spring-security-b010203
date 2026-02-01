@@ -8,6 +8,7 @@ This project was generated with Spring CLI v3.5.10.
 
 ```bash
 spring init --type=gradle-project \
+--boot-version=3.5.10 \
 --language=java \
 --groupId=tech.samagua \
 --artifactId=spring-security-b010203 \
@@ -16,7 +17,7 @@ spring init --type=gradle-project \
 --description=spring-security-b010203 \
 --packaging=jar \
 --javaVersion=25 \
---dependencies=web,security
+--dependencies=web,security,devtools
 unzip ./spring-security-b010203.zip -d spring-security-b010203
 ```
 
